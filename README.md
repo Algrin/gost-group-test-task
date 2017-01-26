@@ -26,7 +26,7 @@ DELETE http://localhost:8080/delete - удалить пользователя
 	"id": 2
 }
 
-GET http://localhost:8080/delete - получить пользователя
+GET http://localhost:8080/get - получить пользователя
 
 {
 	"id": 2
