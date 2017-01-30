@@ -25,7 +25,7 @@ public class User {
     message="value should contain at least 1 Uppercase Alphabet and 1 Number")
   private String password;
 
-  @OneToMany
+  @ManyToMany
   @JoinTable(name = "user_roles",
     joinColumns = @JoinColumn(name = "user_id"),
     inverseJoinColumns = @JoinColumn(name = "role_id"))
